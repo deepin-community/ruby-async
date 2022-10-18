@@ -1,0 +1,21 @@
+From: Hideki Yamane <henrich@debian.org>
+Date: Sun, 7 Jun 2020 20:29:53 +0900
+Subject: ignore covered to avoid build failure
+
+---
+ spec/spec_helper.rb | 2 --
+ 1 file changed, 2 deletions(-)
+
+Index: ruby-async/spec/spec_helper.rb
+===================================================================
+--- ruby-async.orig/spec/spec_helper.rb
++++ ruby-async/spec/spec_helper.rb
+@@ -1,8 +1,5 @@
+ # frozen_string_literal: true
+ 
+-require 'async/rspec'
+-require 'covered/rspec'
+-
+ if RUBY_PLATFORM =~ /darwin/
+ 	Q = 20
+ else

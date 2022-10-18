@@ -1,0 +1,34 @@
+ruby-async (1.30.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Hideki Yamane <henrich@debian.org>  Fri, 13 Aug 2021 00:04:11 +0900
+
+ruby-async (1.30.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Hideki Yamane <henrich@debian.org>  Sun, 25 Jul 2021 13:28:10 +0900
+
+ruby-async (1.29.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control
+    - Standards-Version: 4.5.1
+    - Adjust dependency version
+
+ -- Hideki Yamane <henrich@debian.org>  Sat, 12 Jun 2021 14:24:18 +0900
+
+ruby-async (1.26.2-2) unstable; urgency=medium
+
+  * Source-only-upload for testing migration
+
+ -- Hideki Yamane <henrich@debian.org>  Tue, 23 Jun 2020 07:49:14 +0900
+
+ruby-async (1.26.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #962380)
+    - debian/ruby-test.rake is disabled since it needs ruby-rspec-async and it
+      needs ruby-async itself (dependency loop).
+
+ -- Hideki Yamane <henrich@debian.org>  Fri, 12 Jun 2020 07:48:07 +0900
